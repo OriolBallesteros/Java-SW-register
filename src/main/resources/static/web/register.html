@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Technical test</title>
+    <link rel="stylesheet" href="styles/register.css">
+
+</head>
+
+
+<body>
+    <div id="alert">TESTING</div>
+
+    <div class="form">
+        <p>Enter the info required about that rebel scum:</p>
+        <div id="registerForm">
+            <label>Name: <input type="text" name="nameRebel"></label>
+            <label>Planet: <input type="text" name="planet"></label>
+            <button type="button" id="register">Register</button>
+        </div>
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    </div>
+
+
+    <div id="filter">
+        <p>Seach that rebel scum:</p>
+        <div id="filterInputs">
+            <label>Search for name:<input type="text" id="searchName" placeholder="Enter a name..."></label>
+            <label>Search for planet:<input type="text" id="searchPlanet" placeholder="Enter a planet..."></label>
+        </div>
+    </div>
+
+    <table class="table" id="fullTable">
+        <thead>
+            <tr>
+                <th class="tdName">Name</th>
+                <th class="tdPlanet">Planet</th>
+                <th class="tdDate">Date registration</th>
+            </tr>
+        </thead>
+        <tbody id="table">
+        </tbody>
+    </table>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="scripts/register.js"></script>
+
+</body>
+</html>
